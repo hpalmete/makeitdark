@@ -13,6 +13,8 @@ Array.from(document.querySelectorAll('.darkreader')).map((n) => n.textContent).j
 
 ### Prerequisites
 
+Install [nodejs](https://nodejs.org/)
+
 Install [python](https://www.python.org/)
 
 You _really_ should take the css file from this site, and host it somewhere _you_ control. It's
@@ -23,7 +25,7 @@ Don't trust me - fork the repo.
 
 ### Running
 
-Unix
+#### Unix
 ```bash
 sudo python makeitdark.py
 ```
@@ -31,10 +33,12 @@ sudo python makeitdark.py
 sudo python3 makeitdark.py
 ```
 
-Windows
+#### Windows
+Make sure Slack is NOT running, then execute:
 ```bash
 python makeitdark.py
 ```
+
 ### Sidebar
 
 Add [this sidebar theme](https://slackthemes.net/#/custom#333336,2e2e31,666668,ffffff,277df6,d7d5d4,277df6,277df6) which kinda makes it look like Mojave dark mode:
@@ -52,13 +56,6 @@ Or [this one](https://slackthemes.net/#/custom#1b1c21,2a323e,0576b9,FFFFFF,2a323
 ```
 
 You can fiddle around with custom sidebar themes at https://slackthemes.net
-
-### Reverting
-
-If you want to uninstall the dark Slack theme you can run with the `makeitlight` option:
-```
-makeitdark.py makeitlight
-```
 
 ### Slack Updates
 
